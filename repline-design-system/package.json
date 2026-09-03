@@ -1,0 +1,43 @@
+{
+  "name": "repline-design-system",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Repline Design System 1.0 — React component catalog. Source of truth for UX Pilot design system import via GitHub.",
+  "type": "module",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./styles.css": "./src/styles/repline.css",
+    "./tokens": "./src/tokens/tokens.json"
+  },
+  "files": [
+    "src",
+    "DESIGN_SYSTEM.md",
+    "COMPONENT_SPEC.md",
+    "README.md"
+  ],
+  "sideEffects": [
+    "*.css"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  },
+  "keywords": [
+    "design-system",
+    "react",
+    "repline",
+    "ux-pilot"
+  ],
+  "license": "UNLICENSED"
+}
